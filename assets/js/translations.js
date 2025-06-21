@@ -559,7 +559,7 @@ const translations = {
             },
             tech: {
                 name: "Tech & Innovation",
-                description: "Touraine Tech volunteer (2023-2024), Operations research conferences"
+                description: "Touraine Tech volunteer (2023 and 2024), Operations research conferences"
             },
             environment: {
                 name: "Social Engagement",
@@ -866,7 +866,7 @@ const translations = {
             },
             tech: {
                 name: "Tech & Innovación",
-                description: "Voluntario Touraine Tech (2023-2024), Conferencias en investigación operativa"
+                description: "Voluntario Touraine Tech (2023 y 2024), Conferencias en investigación operativa"
             },
             environment: {
                 name: "Compromiso Social",

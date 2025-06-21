@@ -66,8 +66,8 @@ const translations = {
                 title: "Technicien en Électronique",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Avril - Août 2022",
-                description: "Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. Diagnostic électronique et réparation de systèmes embarqués. Formation aux protocoles de sécurité ferroviaire et aux procédures de maintenance industrielle.",
-                impact: "Impact : Formation complète aux standards de sécurité ferroviaire et procédures industrielles"
+                description: "Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. Diagnostic électronique et réparation de systèmes embarqués.",
+                impact: "Impact : Renforcement de la disponibilité opérationnelle des platines grâce à 43 interventions réussies (dont 15 réparations), contribuant à fluidifier le cycle de maintenance et à limiter les retards d'exploitation."
             }
         },
         projects: {
@@ -90,7 +90,7 @@ const translations = {
             supply: {
                 title: "Optimisation Supply Chain - Modélisation Stochastique",
                 period: "2025 • Projet Académique UQAC",
-                description: "Développement d'un système d'optimisation avancé utilisant des méta-modèles GPR et simulation Monte Carlo. Gestion de l'incertitude de la demande sur réseau logistique multi-nœuds.",
+                description: "Développement d'un framework d'optimisation stochastique pour chaîne d'approvisionnement multi-nœuds (Fabricant-Grossiste-Détaillant) utilisant simulation événementielle discrete (SimPy) et politique de stock (S,s). Implémentation et comparaison de 5 algorithmes d'optimisation black-box : Monte Carlo, Grid Search, métamodèles GPR Bayésiens, Évolution Différentielle et approche hybride. Gestion de l'incertitude via processus de Poisson pour la demande client et validation par réplications multiples. Analyse multi-objectifs avec front de Pareto (profit vs service client).",
                 impact: "Impact : Amélioration des profits nets en conditions d'incertitude"
             },
             tourism: {
@@ -373,8 +373,8 @@ const translations = {
                 title: "Electronics Technician",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "April - August 2022",
-                description: "Preventive and corrective maintenance of TER2N ng door control panels. Electronic diagnosis and repair of embedded systems. Training in railway safety protocols and industrial maintenance procedures.",
-                impact: "Impact: Complete training in railway safety standards and industrial procedures"
+                description: "Preventive and corrective maintenance of TER2N ng door control panels. Electronic diagnosis and repair of embedded systems.",
+                impact: "Impact: Strengthened operational availability of control boards through 43 successful interventions (including 15 repairs), contributing to smoother maintenance cycles and reduced operational delays."
             }
         },
         projects: {
@@ -397,7 +397,7 @@ const translations = {
             supply: {
                 title: "Supply Chain Optimization - Stochastic Modeling",
                 period: "2025 • UQAC Academic Project",
-                description: "Development of an advanced optimization system using GPR meta-models and Monte Carlo simulation. Managing demand uncertainty on multi-node logistics networks.",
+                description: "Development of an advanced stochastic optimization framework for multi-node supply chain (Manufacturer-Wholesaler-Retailer) using discrete event simulation (SimPy) and stock policy (S,s). Implementation and comparison of 5 black-box optimization algorithms: Monte Carlo, Grid Search, Bayesian GPR meta-models, Differential Evolution and hybrid approach. Uncertainty management via Poisson processes for customer demand and validation through multiple replications. Multi-objective analysis with Pareto front (profit vs customer service).",
                 impact: "Impact: Improvement in net profits under uncertainty conditions"
             },
             tourism: {
@@ -680,8 +680,8 @@ const translations = {
                 title: "Técnico en Electrónica",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Abril - Agosto 2022",
-                description: "Mantenimiento preventivo y correctivo de paneles de control de puertas TER2N ng. Diagnóstico electrónico y reparación de sistemas embebidos. Formación en protocolos de seguridad ferroviaria y procedimientos de mantenimiento industrial.",
-                impact: "Impacto: Formación completa en estándares de seguridad ferroviaria y procedimientos industriales"
+                description: "Mantenimiento preventivo y correctivo de paneles de control de puertas TER2N ng. Diagnóstico electrónico y reparación de sistemas embebidos.",
+                impact: "Impacto: Fortalecimiento de la disponibilidad operativa de los paneles de control a través de 43 intervenciones exitosas (incluidas 15 reparaciones), contribuyendo a ciclos de mantenimiento más fluidos y reducción de retrasos operativos."
             }
         },
         projects: {
@@ -697,7 +697,7 @@ const translations = {
                 title: "Inteligencia Energética - Sistema RAG",
                 period: "Enero 2025 • Hackathon Inter-Universitario 48h",
                 badge: "2º Lugar",
-                description: "Desarrollo de un sistema RAG para optimización energética multi-fuente. Pipeline automático para procesamiento de datos heterogéneos. Interfaz IA con generación automática de código Python y recomendaciones de optimización.",
+                description: "Desarrollo de un framework de optimización estocástica para una cadena de suministro multinodo (Fabricante–Mayorista–Minorista), utilizando simulación de eventos discretos (SimPy) y políticas de inventario (S,s). Implementación y comparación de cinco algoritmos de optimización de tipo “caja negra”: Monte Carlo, búsqueda en malla, metamodelos bayesianos GPR, evolución diferencial y enfoque híbrido. Gestión de la incertidumbre mediante procesos de Poisson para la demanda del cliente y validación por múltiples réplicas. Análisis multiobjetivo con frente de Pareto (beneficio vs nivel de servicio al cliente).",
                 impact: "Impacto: 2º lugar de 29 equipos, prueba de concepto validada",
                 link: "Ver detalles"
             },

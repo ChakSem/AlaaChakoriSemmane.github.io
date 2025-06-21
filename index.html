@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alaa Chakori Semmane - Ingénieur IA & Développeur</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="logo">ACS</div>
+            <ul class="nav-links">
+                <li><a href="#home" data-translate="nav.home">Accueil</a></li>
+                <li><a href="#about" data-translate="nav.about">À propos</a></li>
+                <li><a href="#education" data-translate="nav.education">Formation</a></li>
+                <li><a href="#experience" data-translate="nav.experience">Expérience</a></li>
+                <li><a href="#projects" data-translate="nav.projects">Projets</a></li>
+                <li><a href="#skills" data-translate="nav.skills">Compétences</a></li>
+                <li><a href="#contact" data-translate="nav.contact">Contact</a></li>
+            </ul>
+            <div class="language-selector">
+                <button class="lang-btn active" data-lang="fr">FR</button>
+                <button class="lang-btn" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="es">ES</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1 data-translate="hero.title">Alaa Chakori Semmane</h1>
+            <p class="subtitle" data-translate="hero.subtitle">Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport</p>
+            <p class="hero-description" data-translate="hero.description">
+                Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) avec double diplôme en 
+                Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre 
+                intelligence artificielle et sport, expertise en machine learning, computer vision et optimisation.
+            </p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary" data-translate="hero.viewWork">
+                    <i class="fas fa-code"></i>
+                    Mes Projets
+                </a>
+                <a href="#contact" class="btn btn-secondary" data-translate="hero.getInTouch">
+                    <i class="fas fa-envelope"></i>
+                    Me Contacter
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title" data-translate="about.title">À Propos</h2>
+            
+            <!-- Objectif Professionnel -->
+            <div class="objective-card">
+                <h3 data-translate="about.objective.title"><i class="fas fa-bullseye"></i> Objectif Professionnel</h3>
+                <div class="objective-highlight" data-translate="about.objective.highlight">
+                    Recherche de stage en optimisation de la performance sportive
+                </div>
+                <p data-translate="about.objective.description">
+                    Passionné par l'intersection entre Intelligence Artificielle et sport, je souhaite rejoindre une 
+                    équipe d'optimisation de la performance disposant d'une infrastructure IT établie. Mon objectif : 
+                    contribuer en tant que stagiaire au développement de solutions data-driven pour l'analyse performance, 
+                    la prédiction de résultats et l'aide à la décision stratégique.
+                </p>
+                <div class="objective-details" data-translate="about.objective.details">
+                    Stage de 675h minimum (20-24 semaines) - Disponible dès juillet 2025
+                </div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-img">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h3 data-translate="about.journey">Mon Parcours</h3>
+                    <p data-translate="about.description1">
+                        Actuellement en double cursus avec une <span class="highlight">Maîtrise en Informatique spécialisée IA</span> 
+                        à l'UQAC (Canada) et une 5ème année d'ingénierie informatique à Polytech Tours (France). 
+                        Mon expertise se concentre sur le <span class="highlight">machine learning</span>, 
+                        la <span class="highlight">computer vision</span> et l'<span class="highlight">optimisation</span>.
+                    </p>
+                    <p data-translate="about.description2">
+                        Pratiquant passionné de football avec un intérêt marqué pour l'analyse de performances sportives, 
+                        je développe activement des projets combinant IA et sport, notamment des modèles prédictifs Expected Goals (xG) 
+                        avec computer vision en temps réel.
+                    </p>
+                    <p data-translate="about.description3">
+                        Je crois en l'<span class="highlight">apprentissage continu</span> et l'adaptabilité. 
+                        Ce que je ne connais pas aujourd'hui, je peux l'apprendre demain. Ma force réside dans ma 
+                        <span class="highlight">détermination, intégrité et persévérance</span> à livrer des résultats de qualité.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="education" id="education">
+        <div class="container">
+            <h2 class="section-title" data-translate="education.title">Formation</h2>
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-header">
+                        <div class="education-info">
+                            <h3 data-translate="education.master.title">
+                                <i class="fas fa-graduation-cap"></i>
+                                Maîtrise en Informatique - 2ème Cycle
+                            </h3>
+                            <div class="education-institution" data-translate="education.master.institution">
+                                UQAC, Chicoutimi, Canada
+                            </div>
+                            <div class="education-specialization" data-translate="education.master.specialization">
+                                Spécialisation en Intelligence Artificielle et optimisation avancée
+                            </div>
+                        </div>
+                        <div class="education-period" data-translate="education.master.period">Août 2024 - Présent</div>
+                    </div>
+                </div>
+
+                <div class="education-item">
+                    <div class="education-header">
+                        <div class="education-info">
+                            <h3 data-translate="education.engineering.title">
+                                <i class="fas fa-graduation-cap"></i>
+                                Cycle Ingénieur en Informatique
+                            </h3>
+                            <div class="education-institution" data-translate="education.engineering.institution">
+                                Polytech Tours, Tours, France
+                            </div>
+                            <div class="education-specialization" data-translate="education.engineering.specialization">
+                                Orientation 4ème année : Intelligence Artificielle et optimisation avancée
+                            </div>
+                        </div>
+                        <div class="education-period" data-translate="education.engineering.period">Sept. 2022 - 2025</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title" data-translate="experience.title">Expérience Professionnelle</h2>
+            <div class="experience-timeline">
+                <!-- LIFAT Experience -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-title" data-translate="experience.lifat.title">
+                                Stage - Recherche en Mobilité Urbaine & Analytics
+                            </h3>
+                            <div class="experience-company" data-translate="experience.lifat.company">
+                                Laboratoire d'Informatique Fondamentale et Appliquée (LIFAT), Tours
+                            </div>
+                        </div>
+                        <div class="experience-period" data-translate="experience.lifat.period">Juin - Août 2024</div>
+                    </div>
+                    <div class="experience-description">
+                        <div class="experience-mission" data-translate="experience.lifat.mission">
+                            <strong>Mission :</strong> Conception d'indicateurs d'accessibilité et d'équité pour les réseaux cyclables 
+                            de Tours dans le cadre d'une preuve de concept recherche.
+                        </div>
+                        
+                        <h4 data-translate="experience.lifat.achievements.title">Réalisations techniques :</h4>
+                        <ul class="achievement-list" data-translate="experience.lifat.achievements.list">
+                            <li data-translate="experience.lifat.achievements.1">
+                                Adaptation de la méthode d'évaluation de Kent & Karner (2018) au contexte français
+                            </li>
+                            <li data-translate="experience.lifat.achievements.2">
+                                Développement d'algorithmes d'analyse spatiale et de métriques de performance avancées
+                            </li>
+                            <li data-translate="experience.lifat.achievements.3">
+                                Traitement et structuration de datasets complexes (OpenStreetMap, INSEE Filosofi)
+                            </li>
+                            <li data-translate="experience.lifat.achievements.4">
+                                Création d'outils de visualisation cartographique et d'aide à la décision
+                            </li>
+                            <li data-translate="experience.lifat.achievements.5">
+                                Implémentation de systèmes de transformation de coordonnées géographiques (CRS)
+                            </li>
+                        </ul>
+                        
+                        <div class="experience-impact" data-translate="experience.lifat.impact">
+                            <strong>Impact :</strong> Conception d'un outil d'évaluation réplicable des réseaux cyclables
+                        </div>
+                        
+                        <div class="experience-links">
+                            <a href="https://www.linkedin.com/posts/alaa-chakori-semmane-a16b871b8_cet-ete-jai-eu-lopportunite-de-realiser-activity-7276633624760782848-BtEN" 
+                               target="_blank" class="experience-link" data-translate="experience.lifat.presentation">
+                                <i class="fab fa-linkedin"></i> Voir présentation
+                            </a>
+                        </div>
+                    </div>
+                    <div class="tech-list">
+                        <span class="tech-item">Java</span>
+                        <span class="tech-item">Python</span>
+                        <span class="tech-item">JavaFX</span>
+                        <span class="tech-item">CRSTransformation</span>
+                        <span class="tech-item">PlantUML</span>
+                        <span class="tech-item">Overpass API</span>
+                        <span class="tech-item">Maven</span>
+                        <span class="tech-item">Git</span>
+                    </div>
+                </div>
+
+                <!-- SNCF Experience -->
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div class="experience-info">
+                            <h3 class="experience-title" data-translate="experience.sncf.title">
+                                Technicien en Électronique
+                            </h3>
+                            <div class="experience-company" data-translate="experience.sncf.company">
+                                SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps
+                            </div>
+                        </div>
+                        <div class="experience-period" data-translate="experience.sncf.period">Avril - Août 2022</div>
+                    </div>
+                    <div class="experience-description">
+                        <p data-translate="experience.sncf.description">
+                            Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. 
+                            Diagnostic électronique et réparation de systèmes embarqués. Formation aux protocoles de sécurité ferroviaire 
+                            et aux procédures de maintenance industrielle.
+                        </p>
+                        
+                        <div class="experience-impact" data-translate="experience.sncf.impact">
+                            <strong>Impact :</strong> Formation complète aux standards de sécurité ferroviaire et procédures industrielles
+                        </div>
+                    </div>
+                    <div class="tech-list">
+                        <span class="tech-item">Systèmes embarqués</span>
+                        <span class="tech-item">Diagnostic électronique</span>
+                        <span class="tech-item">Maintenance industrielle</span>
+                        <span class="tech-item">Protocoles de sécurité</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects.title">Projets Techniques</h2>
+            <div class="projects-grid">
+                <!-- Football xG Project -->
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">⚽</div>
+                        <div class="project-badge featured-badge" data-translate="projects.football.badge">Projet Phare</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.football.title">Système Prédictif Football - Expected Goals Avancés</h3>
+                        <div class="project-period" data-translate="projects.football.period">2024-2025 • Projet de Recherche UQAC</div>
+                        <p data-translate="projects.football.description">
+                            Développement d'un modèle ML avancé intégrant computer vision en temps réel pour le calcul des xG. 
+                            Le système analyse automatiquement le positionnement des joueurs, la géométrie du terrain et les actions 
+                            de jeu pour prédire les scores avec une précision supérieure aux modèles traditionnels.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.football.impact">
+                                <i class="fas fa-chart-line"></i>
+                                <strong>Impact :</strong> Précision de prédiction améliorée de 15% vs modèles standards
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">YOLO v8</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Scikit-learn</span>
+                            <span class="tech-tag">FastAPI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hackathon Project -->
+                <div class="project-card award">
+                    <div class="project-header">
+                        <div class="project-icon">🏆</div>
+                        <div class="project-badge award-badge" data-translate="projects.hackathon.badge">2ème Place</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.hackathon.title">Intelligence Énergétique - RAG System</h3>
+                        <div class="project-period" data-translate="projects.hackathon.period">Janvier 2025 • Hackathon Inter-Universitaire 48h</div>
+                        <p data-translate="projects.hackathon.description">
+                            Développement rapide d'un système RAG pour l'optimisation énergétique multi-sources. Pipeline automatique 
+                            de traitement de données hétérogènes. Interface IA avec génération de code Python automatique et 
+                            recommandations d'optimisation.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.hackathon.impact">
+                                <i class="fas fa-trophy"></i>
+                                <strong>Impact :</strong> 2ème place sur 29 équipes, preuve de concept validée
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.journaldunet.com/intelligence-artificielle/1539855-le-prochain-hackathon-generative-ai-debutera-le-4-avril/" 
+                               target="_blank" class="project-link" data-translate="projects.hackathon.link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir détails
+                            </a>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">LangChain</span>
+                            <span class="tech-tag">FAISS</span>
+                            <span class="tech-tag">Ollama</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Transformers</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Supply Chain Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📦</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.supply.title">Optimisation Supply Chain - Modélisation Stochastique</h3>
+                        <div class="project-period" data-translate="projects.supply.period">2025 • Projet Académique UQAC</div>
+                        <p data-translate="projects.supply.description">
+                            Développement d'un système d'optimisation avancé utilisant des méta-modèles GPR et simulation Monte Carlo. 
+                            Gestion de l'incertitude de la demande sur réseau logistique multi-nœuds.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.supply.impact">
+                                <i class="fas fa-chart-line"></i>
+                                <strong>Impact :</strong> Amélioration des profits nets de 12% en conditions d'incertitude
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">GPR</span>
+                            <span class="tech-tag">NumPy</span>
+                            <span class="tech-tag">SciPy</span>
+                            <span class="tech-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tourism Optimization -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🗺️</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.tourism.title">Optimisation d'Itinéraires Touristiques</h3>
+                        <div class="project-period" data-translate="projects.tourism.period">2023-2024 • Projet Académique Polytech Tours</div>
+                        <p data-translate="projects.tourism.description">
+                            Développement d'une heuristique et méta-heuristique pour résoudre un problème complexe de conception 
+                            d'itinéraires. Approche innovante combinant algorithmes génétiques et optimisation locale.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.tourism.impact">
+                                <i class="fas fa-lightbulb"></i>
+                                <strong>Impact :</strong> Déploiement d'une approche hybride efficace pour améliorer la qualité des itinéraires générés
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://www.canva.com/design/DAGbovNAYQI/z9_-m4Hxy6nhbIZcq7GZwA/view" 
+                               target="_blank" class="project-link" data-translate="projects.tourism.link">
+                                <i class="fas fa-external-link-alt"></i>
+                                Voir présentation
+                            </a>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Algorithmes génétiques</span>
+                            <span class="tech-tag">Heuristiques</span>
+                            <span class="tech-tag">Optimisation combinatoire</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SnapSort Project -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">📱</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.snapsort.title">SnapSort - Classification Intelligente d'Images</h3>
+                        <div class="project-period" data-translate="projects.snapsort.period">2024-2025 • Projet Académique UQAC</div>
+                        <p data-translate="projects.snapsort.description">
+                            Écosystème complet de tri automatique utilisant deep learning pour la reconnaissance d'activités. 
+                            Interface web moderne en React avec prévisualisation et organisation thématique intelligente. 
+                            Application mobile compagnon en Kotlin permettant la capture et l'envoi d'images vers l'ordinateur via connexion WiFi.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.snapsort.impact">
+                                <i class="fas fa-mobile-alt"></i>
+                                <strong>Impact :</strong> Interopérabilité mobile-desktop avec synchronisation automatique et classification temps réel
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">Kotlin</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Urban Navigation -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">🚴</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 data-translate="projects.navigation.title">Chemins Optimaux - Navigation Urbaine</h3>
+                        <div class="project-period" data-translate="projects.navigation.period">2023-2024 • Projet Académique Polytech Tours</div>
+                        <p data-translate="projects.navigation.description">
+                            Création d'une application Java pour visualiser des itinéraires vélo optimisés utilisant algorithmes 
+                            de Dijkstra et approche multicritères. Tests sur Paris, San Francisco et Berlin.
+                        </p>
+                        <div class="project-achievements">
+                            <div class="achievement-item" data-translate="projects.navigation.impact">
+                                <i class="fas fa-globe"></i>
+                                <strong>Impact :</strong> Validation sur 3 métropoles internationales avec critères multiples
+                            </div>
+                        </div>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Théorie des graphes</span>
+                            <span class="tech-tag">Dijkstra</span>
+                            <span class="tech-tag">Optimisation multicritères</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title" data-translate="skills.title">Expertise Technique</h2>
+            
+            <div class="skills-disclaimer">
+                <i class="fas fa-info-circle"></i>
+                <span data-translate="skills.disclaimer">
+                    <strong>Note :</strong> Les compétences énumérées ci-dessous ne sont pas exhaustives et reflètent mes domaines d'expertise principaux. 
+                    Je suis toujours ouvert à l'apprentissage de nouvelles technologies et méthodologies pour m'adapter aux besoins spécifiques des projets.
+                </span>
+            </div>
+
+            <div class="skills-container">
+                <!-- Intelligence Artificielle & Sport -->
+                <div class="skill-category featured">
+                    <h3><i class="fas fa-brain"></i> <span data-translate="skills.ai_sport.title">Intelligence Artificielle & Sport</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.ai_sport.computer_vision.name">Computer Vision</div>
+                        <div class="skill-description" data-translate="skills.ai_sport.computer_vision.description">
+                            Détection d'objets en temps réel, tracking de joueurs, analyse spatiale
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">YOLO v8</span>
+                            <span class="skill-tag">OpenCV</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.ai_sport.ml_dl.name">ML/DL</div>
+                        <div class="skill-description" data-translate="skills.ai_sport.ml_dl.description">
+                            Modèles prédictifs, réseaux de neurones, optimisation hyperparamètres
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">PyTorch</span>
+                            <span class="skill-tag">Keras</span>
+                            <span class="skill-tag">TensorFlow</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.ai_sport.analytics.name">Analytics Sportives</div>
+                        <div class="skill-description" data-translate="skills.ai_sport.analytics.description">
+                            Expected Goals (xG), métriques de performance, analyse prédictive
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Time Series</span>
+                            <span class="skill-tag">KPIs sportifs</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Développement & Data Engineering -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> <span data-translate="skills.development.title">Développement & Data Engineering</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.backend.name">Backend</div>
+                        <div class="skill-description" data-translate="skills.development.backend.description">
+                            Développement backend robuste, APIs REST, microservices
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java/Kotlin</span>
+                            <span class="skill-tag">C/C++</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.frontend.name">Frontend</div>
+                        <div class="skill-description" data-translate="skills.development.frontend.description">
+                            Applications web modernes, interfaces réactives
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">TypeScript</span>
+                            <span class="skill-tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.mobile.name">Mobile</div>
+                        <div class="skill-description" data-translate="skills.development.mobile.description">
+                            Applications multiplateformes, synchronisation temps réel
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">React Native</span>
+                            <span class="skill-tag">Kotlin</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.databases.name">Bases de données</div>
+                        <div class="skill-description" data-translate="skills.development.databases.description">
+                            Conception, optimisation, requêtes complexes
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">MySQL</span>
+                            <span class="skill-tag">SQLite</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.apis.name">APIs</div>
+                        <div class="skill-description" data-translate="skills.development.apis.description">
+                            REST, FastAPI, intégration de services
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">REST</span>
+                            <span class="skill-tag">FastAPI</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.development.tools.name">Outils</div>
+                        <div class="skill-description" data-translate="skills.development.tools.description">
+                            DevOps, versioning, conteneurisation
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">Maven</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Recherche Opérationnelle & GIS -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-calculator"></i> <span data-translate="skills.operations_research.title">Recherche Opérationnelle & GIS</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.optimization.name">Optimisation</div>
+                        <div class="skill-description" data-translate="skills.operations_research.optimization.description">
+                            Programmation linéaire, algorithmes génétiques, méta-heuristiques
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Algorithmes génétiques</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.graphs.name">Graphes</div>
+                        <div class="skill-description" data-translate="skills.operations_research.graphs.description">
+                            Plus courts chemins, optimisation de réseaux
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Dijkstra</span>
+                            <span class="skill-tag">théorie des graphes</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.simulation.name">Simulation</div>
+                        <div class="skill-description" data-translate="skills.operations_research.simulation.description">
+                            Modélisation stochastique, méta-modèles
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Monte Carlo</span>
+                            <span class="skill-tag">GPR</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.geospatial.name">Géospatial</div>
+                        <div class="skill-description" data-translate="skills.operations_research.geospatial.description">
+                            Transformation de coordonnées, analyse spatiale
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">CRSTransformation</span>
+                            <span class="skill-tag">OSM</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.solvers.name">Solveurs</div>
+                        <div class="skill-description" data-translate="skills.operations_research.solvers.description">
+                            Optimisation avec contraintes, problèmes complexes
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">CPLEX</span>
+                            <span class="skill-tag">Choco</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.operations_research.analytics.name">Analytics</div>
+                        <div class="skill-description" data-translate="skills.operations_research.analytics.description">
+                            Visualisation, analyse statistique
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">R</span>
+                            <span class="skill-tag">Scilab</span>
+                            <span class="skill-tag">Matplotlib</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Gestion de Projet & Méthodologies -->
+                <div class="skill-category">
+                    <h3><i class="fas fa-project-diagram"></i> <span data-translate="skills.project_management.title">Gestion de Projet & Méthodologies</span></h3>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.agile.name">Agile</div>
+                        <div class="skill-description" data-translate="skills.project_management.agile.description">
+                            Méthodologies agiles, gestion d'équipe
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Scrum</span>
+                            <span class="skill-tag">Sprints</span>
+                            <span class="skill-tag">Kanban</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.documentation.name">Documentation</div>
+                        <div class="skill-description" data-translate="skills.project_management.documentation.description">
+                            Modélisation UML, architecture logicielle
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">UML</span>
+                            <span class="skill-tag">PlantUML</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.tests.name">Tests</div>
+                        <div class="skill-description" data-translate="skills.project_management.tests.description">
+                            Tests unitaires, validation croisée
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">JUnit</span>
+                            <span class="skill-tag">Validation croisée</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.research.name">Recherche</div>
+                        <div class="skill-description" data-translate="skills.project_management.research.description">
+                            Veille technologique, littérature scientifique
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Littérature scientifique</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.communication.name">Communication</div>
+                        <div class="skill-description" data-translate="skills.project_management.communication.description">
+                            Présentations techniques, vulgarisation
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Présentations techniques</span>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name" data-translate="skills.project_management.international.name">International</div>
+                        <div class="skill-description" data-translate="skills.project_management.international.description">
+                            Collaboration multiculturelle, adaptation
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Équipes multiculturelles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Languages & Interests -->
+    <section class="languages-interests" id="languages">
+        <div class="container">
+            <h2 class="section-title" data-translate="languages_interests.title">Langues & Centres d'Intérêt</h2>
+            <div class="languages-interests-grid">
+                <div class="languages-section">
+                    <h3><i class="fas fa-language"></i> <span data-translate="languages.title">Langues</span></h3>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name" data-translate="languages.spanish.name">Espagnol</span>
+                            <span class="language-note" data-translate="languages.spanish.note">Langue maternelle</span>
+                        </div>
+                        <span class="language-level native" data-translate="languages.spanish.level">Natif</span>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name" data-translate="languages.french.name">Français</span>
+                            <span class="language-note" data-translate="languages.french.note">Maîtrise parfaite</span>
+                        </div>
+                        <span class="language-level advanced" data-translate="languages.french.level">C2</span>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name" data-translate="languages.english.name">Anglais</span>
+                            <span class="language-note" data-translate="languages.english.note">Professionnel</span>
+                        </div>
+                        <span class="language-level intermediate" data-translate="languages.english.level">B2</span>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name" data-translate="languages.catalan.name">Catalan</span>
+                            <span class="language-note" data-translate="languages.catalan.note">Conversationnel</span>
+                        </div>
+                        <span class="language-level basic" data-translate="languages.catalan.level">A2</span>
+                    </div>
+                    <div class="language-item">
+                        <div class="language-info">
+                            <span class="language-name" data-translate="languages.arabic.name">Arabe</span>
+                            <span class="language-note" data-translate="languages.arabic.note">Notions - C.O</span>
+                        </div>
+                        <span class="language-level basic" data-translate="languages.arabic.level">A1</span>
+                    </div>
+                </div>
+
+                <div class="interests-section">
+                    <h3><i class="fas fa-heart"></i> <span data-translate="interests.title">Centres d'Intérêt</span></h3>
+                    <div class="interest-item">
+                        <i class="fas fa-futbol interest-icon"></i>
+                        <div class="interest-content">
+                            <div class="interest-name" data-translate="interests.football.name">Football</div>
+                            <div class="interest-description" data-translate="interests.football.description">
+                                Pratique régulière (Ligue soccer UQAC), Analyse de statistiques et performances
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-chart-line interest-icon"></i>
+                        <div class="interest-content">
+                            <div class="interest-name" data-translate="interests.tech.name">Tech & Innovation</div>
+                            <div class="interest-description" data-translate="interests.tech.description">
+                                Bénévole Touraine Tech (2023-2024), Conférences en recherche opérationnelle
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-leaf interest-icon"></i>
+                        <div class="interest-content">
+                            <div class="interest-name" data-translate="interests.environment.name">Engagement Social</div>
+                            <div class="interest-description" data-translate="interests.environment.description">
+                                Animateur fresque du climat, Projets de sensibilisation environnementale
+                            </div>
+                        </div>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-dumbbell interest-icon"></i>
+                        <div class="interest-content">
+                            <div class="interest-name" data-translate="interests.personal.name">Développement Personnel</div>
+                            <div class="interest-description" data-translate="interests.personal.description">
+                                Musculation, Nutrition, Méditation, Apprentissage des langues
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Aptitudes Clés -->
+            <div class="soft-skills">
+                <h3><i class="fas fa-user-graduate"></i> <span data-translate="soft_skills.title">Aptitudes Clés</span></h3>
+                <div class="soft-skills-grid">
+                    <div class="soft-skill-item" data-translate="soft_skills.problem_solving">
+                        <i class="fas fa-puzzle-piece"></i>
+                        Résolution de problèmes complexes
+                    </div>
+                    <div class="soft-skill-item" data-translate="soft_skills.analytical_thinking">
+                        <i class="fas fa-brain"></i>
+                        Pensée analytique et critique
+                    </div>
+                    <div class="soft-skill-item" data-translate="soft_skills.adaptability">
+                        <i class="fas fa-sync-alt"></i>
+                        Adaptabilité technologique
+                    </div>
+                    <div class="soft-skill-item" data-translate="soft_skills.communication">
+                        <i class="fas fa-comments"></i>
+                        Communication des résultats
+                    </div>
+                    <div class="soft-skill-item" data-translate="soft_skills.rigor">
+                        <i class="fas fa-microscope"></i>
+                        Rigueur scientifique
+                    </div>
+                    <div class="soft-skill-item" data-translate="soft_skills.initiative">
+                        <i class="fas fa-lightbulb"></i>
+                        Initiative et autonomie
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CV Download Section -->
+    <section class="cv-download">
+        <div class="container">
+            <h2 data-translate="cv.title">Télécharger mon CV</h2>
+            <p data-translate="cv.description">Disponible en plusieurs langues pour votre commodité</p>
+            <div class="cv-buttons">
+                <a href="assets/cv/CV_Alaa_Chakori_FR.pdf" class="cv-btn" data-translate="cv.french" target="_blank">
+                    <i class="fas fa-download"></i>
+                    CV Français
+                </a>
+                <a href="assets/cv/CV_Alaa_Chakori_EN.pdf" class="cv-btn" data-translate="cv.english" target="_blank">
+                    <i class="fas fa-download"></i>
+                    English CV
+                </a>
+                <a href="assets/cv/CV_Alaa_Chakori_ES.pdf" class="cv-btn" data-translate="cv.spanish" target="_blank">
+                    <i class="fas fa-download"></i>
+                    CV Español
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title" data-translate="contact.title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 data-translate="contact.info">Informations de Contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <strong data-translate="contact.email_label">Email</strong><br>
+                            <a href="mailto:alaa.chakori.semmane@gmail.com" data-translate="contact.email">
+                                alaa.chakori.semmane@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <strong data-translate="contact.phone_label">Téléphone</strong><br>
+                            <span data-translate="contact.phone">+33 6 25 79 48 48</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <strong data-translate="contact.location_label">Localisation</strong><br>
+                            <span data-translate="contact.location">Tours, France & Chicoutimi, Canada</span>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fab fa-linkedin"></i>
+                        <div>
+                            <strong data-translate="contact.linkedin_label">LinkedIn</strong><br>
+                            <a href="https://www.linkedin.com/in/alaa-chakori-semmane-a16b871b8/" target="_blank" data-translate="contact.linkedin">
+                                LinkedIn Profile
+                            </a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-calendar"></i>
+                        <div>
+                            <strong data-translate="contact.availability_label">Disponibilité</strong><br>
+                            <span data-translate="contact.availability">Stage 675h+ à partir de juillet 2025</span>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" autocomplete="off">
+                    <div class="form-group">
+                        <label for="name" data-translate="contact.form.name">Nom</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" data-translate="contact.form.email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="company" data-translate="contact.form.company">Entreprise / Organisation</label>
+                        <input type="text" id="company" name="company">
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" data-translate="contact.form.subject">Sujet</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" data-translate="contact.form.message">Message</label>
+                        <textarea id="message" name="message" required data-translate="contact.form.placeholder" placeholder="Décrivez votre projet, vos besoins ou toute question..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary" data-translate="contact.form.send">
+                        <i class="fas fa-paper-plane"></i>
+                        Envoyer le Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-links">
+            <a href="https://github.com/AlaaChakoriSemmane" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/alaa-chakori-semmane-a16b871b8/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:alaa.chakori.semmane@gmail.com" class="social-link" aria-label="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <div data-translate="footer.copyright">
+            &copy; 2025 Alaa Chakori Semmane. Tous droits réservés.
+        </div>
+    </footer>
+
+    <script src="assets/js/translations.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

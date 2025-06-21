@@ -11,7 +11,7 @@ const translations = {
         },
         hero: {
             title: "Alaa Chakori Semmane",
-            subtitle: "Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
+            subtitle: "Etudiant Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
             description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) avec double diplôme en Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, expertise en machine learning, computer vision et optimisation.",
             viewWork: "Mes Projets",
             getInTouch: "Me Contacter"
@@ -83,7 +83,7 @@ const translations = {
                 title: "Intelligence Énergétique - RAG System",
                 period: "Janvier 2025 • Hackathon Inter-Universitaire 48h",
                 badge: "2ème Place",
-                description: "Développement rapide d'un système RAG pour l'optimisation énergétique multi-sources. Pipeline automatique de traitement de données hétérogènes. Interface IA avec génération de code Python automatique et recommandations d'optimisation.",
+                description: "Développement d'un système RAG pour l'optimisation énergétique multi-sources. Pipeline automatique de traitement de données hétérogènes. Interface IA avec génération de code Python automatique et recommandations d'optimisation.",
                 impact: "Impact : 2ème place sur 29 équipes, preuve de concept validée",
                 link: "Voir détails"
             },
@@ -91,7 +91,7 @@ const translations = {
                 title: "Optimisation Supply Chain - Modélisation Stochastique",
                 period: "2025 • Projet Académique UQAC",
                 description: "Développement d'un système d'optimisation avancé utilisant des méta-modèles GPR et simulation Monte Carlo. Gestion de l'incertitude de la demande sur réseau logistique multi-nœuds.",
-                impact: "Impact : Amélioration des profits nets de 12% en conditions d'incertitude"
+                impact: "Impact : Amélioration des profits nets en conditions d'incertitude"
             },
             tourism: {
                 title: "Optimisation d'Itinéraires Touristiques",
@@ -390,7 +390,7 @@ const translations = {
                 title: "Energy Intelligence - RAG System",
                 period: "January 2025 • Inter-University Hackathon 48h",
                 badge: "2nd Place",
-                description: "Rapid development of a RAG system for multi-source energy optimization. Automatic pipeline for heterogeneous data processing. AI interface with automatic Python code generation and optimization recommendations.",
+                description: "Development of a RAG system for multi-source energy optimization. Automatic pipeline for heterogeneous data processing. AI interface with automatic Python code generation and optimization recommendations.",
                 impact: "Impact: 2nd place out of 29 teams, validated proof of concept",
                 link: "View details"
             },
@@ -398,7 +398,7 @@ const translations = {
                 title: "Supply Chain Optimization - Stochastic Modeling",
                 period: "2025 • UQAC Academic Project",
                 description: "Development of an advanced optimization system using GPR meta-models and Monte Carlo simulation. Managing demand uncertainty on multi-node logistics networks.",
-                impact: "Impact: 12% improvement in net profits under uncertainty conditions"
+                impact: "Impact: Improvement in net profits under uncertainty conditions"
             },
             tourism: {
                 title: "Tourist Route Optimization",
@@ -697,7 +697,7 @@ const translations = {
                 title: "Inteligencia Energética - Sistema RAG",
                 period: "Enero 2025 • Hackathon Inter-Universitario 48h",
                 badge: "2º Lugar",
-                description: "Desarrollo rápido de un sistema RAG para optimización energética multi-fuente. Pipeline automático para procesamiento de datos heterogéneos. Interfaz IA con generación automática de código Python y recomendaciones de optimización.",
+                description: "Desarrollo de un sistema RAG para optimización energética multi-fuente. Pipeline automático para procesamiento de datos heterogéneos. Interfaz IA con generación automática de código Python y recomendaciones de optimización.",
                 impact: "Impacto: 2º lugar de 29 equipos, prueba de concepto validada",
                 link: "Ver detalles"
             },
@@ -705,7 +705,7 @@ const translations = {
                 title: "Optimización Cadena de Suministro - Modelado Estocástico",
                 period: "2025 • Proyecto Académico UQAC",
                 description: "Desarrollo de un sistema de optimización avanzado usando meta-modelos GPR y simulación Monte Carlo. Gestión de incertidumbre de demanda en redes logísticas multi-nodo.",
-                impact: "Impacto: 12% de mejora en beneficios netos bajo condiciones de incertidumbre"
+                impact: "Impacto: Mejora en beneficios netos bajo condiciones de incertidumbre"
             },
             tourism: {
                 title: "Optimización de Rutas Turísticas",

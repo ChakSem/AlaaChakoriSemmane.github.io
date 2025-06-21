@@ -61,24 +61,7 @@
     <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-title" data-translate="about.title">À Propos</h2>
-            
-            <!-- Objectif Professionnel -->
-            <div class="objective-card">
-                <h3 data-translate="about.objective.title"><i class="fas fa-bullseye"></i> Objectif Professionnel</h3>
-                <div class="objective-highlight" data-translate="about.objective.highlight">
-                    Recherche de stage en optimisation de la performance sportive
-                </div>
-                <p data-translate="about.objective.description">
-                    Passionné par l'intersection entre Intelligence Artificielle et sport, je souhaite rejoindre une 
-                    équipe d'optimisation de la performance disposant d'une infrastructure IT établie. Mon objectif : 
-                    contribuer en tant que stagiaire au développement de solutions data-driven pour l'analyse performance, 
-                    la prédiction de résultats et l'aide à la décision stratégique.
-                </p>
-                <div class="objective-details" data-translate="about.objective.details">
-                    Stage de 675h minimum (20-24 semaines) - Disponible dès juillet 2025
-                </div>
-            </div>
+            <h2 class="section-title" data-translate="about.title">À propos de moi</h2>
 
             <div class="about-content">
                 <div class="about-image">
@@ -301,7 +284,7 @@
                         <h3 data-translate="projects.hackathon.title">Intelligence Énergétique - RAG System</h3>
                         <div class="project-period" data-translate="projects.hackathon.period">Janvier 2025 • Hackathon Inter-Universitaire 48h</div>
                         <p data-translate="projects.hackathon.description">
-                            Développement rapide d'un système RAG pour l'optimisation énergétique multi-sources. Pipeline automatique 
+                            Développement d'un système RAG pour l'optimisation énergétique multi-sources. Pipeline automatique 
                             de traitement de données hétérogènes. Interface IA avec génération de code Python automatique et 
                             recommandations d'optimisation.
                         </p>
@@ -843,98 +826,92 @@
         </div>
     </section>
 
+   
     <!-- Contact Section -->
     <section class="contact" id="contact">
         <div class="container">
             <h2 class="section-title" data-translate="contact.title">Contact</h2>
             <div class="contact-container">
-                <div class="contact-info">
+                <!-- Contact Info Card - Style cohérent avec le CV -->
+                <div class="contact-info-card">
                     <h3 data-translate="contact.info">Informations de Contact</h3>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <strong data-translate="contact.email_label">Email</strong><br>
-                            <a href="mailto:alaa.chakori.semmane@gmail.com" data-translate="contact.email">
-                                alaa.chakori.semmane@gmail.com
-                            </a>
+                    
+                    <div class="contact-grid">
+                        <div class="contact-column">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <strong data-translate="contact.email_label">Email</strong>
+                                    <a href="mailto:alaa.chakori.semmane@gmail.com" data-translate="contact.email">
+                                        alaa.chakori.semmane@gmail.com
+                                    </a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <strong data-translate="contact.phone_label">Téléphone</strong>
+                                    <a href="tel:+33625794848" data-translate="contact.phone">+33 6 25 79 48 48</a>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-column">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <strong data-translate="contact.location_label">Localisation</strong>
+                                    <span data-translate="contact.location">Tours, France & Chicoutimi, Canada</span>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <strong data-translate="contact.linkedin_label">LinkedIn</strong>
+                                    <a href="https://www.linkedin.com/in/alaachakorisemmane" target="_blank" rel="noopener" data-translate="contact.linkedin">
+                                        Profil LinkedIn
+                                    </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <strong data-translate="contact.phone_label">Téléphone</strong><br>
-                            <span data-translate="contact.phone">+33 6 25 79 48 48</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <strong data-translate="contact.location_label">Localisation</strong><br>
-                            <span data-translate="contact.location">Tours, France & Chicoutimi, Canada</span>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fab fa-linkedin"></i>
-                        <div>
-                            <strong data-translate="contact.linkedin_label">LinkedIn</strong><br>
-                            <a href="https://www.linkedin.com/in/alaa-chakori-semmane-a16b871b8/" target="_blank" data-translate="contact.linkedin">
-                                LinkedIn Profile
-                            </a>
-                        </div>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-calendar"></i>
-                        <div>
-                            <strong data-translate="contact.availability_label">Disponibilité</strong><br>
+                    
+                    <div class="availability-highlight">
+                        <i class="fas fa-calendar-alt"></i>
+                        <div class="availability-details">
+                            <strong data-translate="contact.availability_label">Disponibilité</strong>
                             <span data-translate="contact.availability">Stage 675h+ à partir de juillet 2025</span>
                         </div>
                     </div>
                 </div>
-                <form class="contact-form" autocomplete="off">
-                    <div class="form-group">
-                        <label for="name" data-translate="contact.form.name">Nom</label>
-                        <input type="text" id="name" name="name" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="email" data-translate="contact.form.email">Email</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="company" data-translate="contact.form.company">Entreprise / Organisation</label>
-                        <input type="text" id="company" name="company">
-                    </div>
-                    <div class="form-group">
-                        <label for="subject" data-translate="contact.form.subject">Sujet</label>
-                        <input type="text" id="subject" name="subject" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="message" data-translate="contact.form.message">Message</label>
-                        <textarea id="message" name="message" required data-translate="contact.form.placeholder" placeholder="Décrivez votre projet, vos besoins ou toute question..."></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary" data-translate="contact.form.send">
-                        <i class="fas fa-paper-plane"></i>
-                        Envoyer le Message
-                    </button>
-                </form>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer">
-        <div class="social-links">
-            <a href="https://github.com/AlaaChakoriSemmane" class="social-link" target="_blank" rel="noopener" aria-label="GitHub">
-                <i class="fab fa-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/alaa-chakori-semmane-a16b871b8/" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:alaa.chakori.semmane@gmail.com" class="social-link" aria-label="Email">
-                <i class="fas fa-envelope"></i>
-            </a>
-        </div>
-        <div data-translate="footer.copyright">
-            &copy; 2025 Alaa Chakori Semmane. Tous droits réservés.
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/alaachakorisemmane" class="social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:alaa.chakori.semmane@gmail.com" class="social-link" aria-label="Email">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+            <div data-translate="footer.copyright">
+                &copy; 2025 Alaa Chakori Semmane. Tous droits réservés.
+            </div>
         </div>
     </footer>
 

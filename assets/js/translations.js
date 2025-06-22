@@ -67,7 +67,8 @@ const translations = {
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Avril - Août 2022",
                 description: "Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. Diagnostic électronique et réparation de systèmes embarqués.",
-                impact: "Impact : Renforcement de la disponibilité opérationnelle des platines grâce à 43 interventions réussies (dont 15 réparations), contribuant à fluidifier le cycle de maintenance et à limiter les retards d'exploitation."
+                impact: "Impact : Renforcement de la disponibilité opérationnelle des platines grâce à 43 interventions réussies (dont 15 réparations), contribuant à fluidifier le cycle de maintenance et à limiter les retards d'exploitation.",
+                presentation: "Voir lettre de recommandation"
             }
         },
         projects: {
@@ -110,7 +111,8 @@ const translations = {
                 title: "Chemins Optimaux - Navigation Urbaine",
                 period: "2023-2024 • Projet Académique Polytech Tours",
                 description: "Création d'une application Java pour visualiser des itinéraires vélo optimisés utilisant algorithmes de Dijkstra et approche multicritères. Tests sur Paris, San Francisco et Berlin.",
-                impact: "Impact : Validation sur 3 métropoles internationales avec critères multiples"
+                impact: "Impact : Validation sur 3 métropoles internationales avec critères multiples",
+                link: "Voir présentation"
             }
         },
         skills: {
@@ -287,7 +289,7 @@ const translations = {
             phone_label: "Téléphone",
             phone: "+33 6 25 79 48 48",
             location_label: "Localisation",
-            location: "Tours, France & Chicoutimi, Canada",
+            location: "Tours, France ",
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Disponibilité",
@@ -374,7 +376,8 @@ const translations = {
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "April - August 2022",
                 description: "Preventive and corrective maintenance of TER2N ng door control panels. Electronic diagnosis and repair of embedded systems.",
-                impact: "Impact: Strengthened operational availability of control boards through 43 successful interventions (including 15 repairs), contributing to smoother maintenance cycles and reduced operational delays."
+                impact: "Impact: Strengthened operational availability of control boards through 43 successful interventions (including 15 repairs), contributing to smoother maintenance cycles and reduced operational delays.",
+                presentation: "View recommendation letter"
             }
         },
         projects: {
@@ -417,7 +420,8 @@ const translations = {
                 title: "Optimal Paths - Urban Navigation",
                 period: "2023-2024 • Polytech Tours Academic Project",
                 description: "Creation of a Java application to visualize optimized bike routes using Dijkstra algorithms and multi-criteria approach. Tests on Paris, San Francisco and Berlin.",
-                impact: "Impact: Validation on 3 international metropolises with multiple criteria"
+                impact: "Impact: Validation on 3 international metropolises with multiple criteria",
+                link: "View presentation"
             }
         },
         skills: {
@@ -594,7 +598,7 @@ const translations = {
             phone_label: "Phone",
             phone: "+33 6 25 79 48 48",
             location_label: "Location",
-            location: "Tours, France & Chicoutimi, Canada",
+            location: "Tours, France ",
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Availability",
@@ -681,7 +685,8 @@ const translations = {
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Abril - Agosto 2022",
                 description: "Mantenimiento preventivo y correctivo de paneles de control de puertas TER2N ng. Diagnóstico electrónico y reparación de sistemas embebidos.",
-                impact: "Impacto: Fortalecimiento de la disponibilidad operativa de los paneles de control a través de 43 intervenciones exitosas (incluidas 15 reparaciones), contribuyendo a ciclos de mantenimiento más fluidos y reducción de retrasos operativos."
+                impact: "Impacto: Fortalecimiento de la disponibilidad operativa de los paneles de control a través de 43 intervenciones exitosas (incluidas 15 reparaciones), contribuyendo a ciclos de mantenimiento más fluidos y reducción de retrasos operativos.",
+                presentation: "Ver carta de recomendación"
             }
         },
         projects: {
@@ -724,7 +729,8 @@ const translations = {
                 title: "Caminos Óptimos - Navegación Urbana",
                 period: "2023-2024 • Proyecto Académico Polytech Tours",
                 description: "Creación de aplicación Java para visualizar rutas de bicicleta optimizadas usando algoritmos de Dijkstra y enfoque multi-criterio. Pruebas en París, San Francisco y Berlín.",
-                impact: "Impacto: Validación en 3 metrópolis internacionales con criterios múltiples"
+                impact: "Impacto: Validación en 3 metrópolis internacionales con criterios múltiples",
+                link: "Ver presentación"
             }
         },
         skills: {
@@ -901,7 +907,7 @@ const translations = {
             phone_label: "Teléfono",
             phone: "+33 6 25 79 48 48",
             location_label: "Ubicación",
-            location: "Tours, Francia & Chicoutimi, Canadá",
+            location: "Tours, Francia",
             linkedin_label: "LinkedIn",
             linkedin: "Perfil LinkedIn",
             availability_label: "Disponibilidad",

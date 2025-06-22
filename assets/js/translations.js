@@ -60,7 +60,7 @@ const translations = {
                     5: "Implémentation de systèmes de transformation de coordonnées géographiques (CRS)"
                 },
                 impact: "Impact : Conception d'un outil d'évaluation réplicable des réseaux cyclables",
-                presentation: "Voir présentation"
+                presentation: "Voir le post Linkedin"
             },
             sncf: {
                 title: "Technicien en Électronique",
@@ -369,7 +369,7 @@ const translations = {
                     5: "Implementation of geographic coordinate transformation systems (CRS)"
                 },
                 impact: "Impact: Design of a replicable evaluation tool for cycling networks",
-                presentation: "View presentation"
+                presentation: "View LinkedIn post"
             },
             sncf: {
                 title: "Electronics Technician",
@@ -678,7 +678,7 @@ const translations = {
                     5: "Implementación de sistemas de transformación de coordenadas geográficas (CRS)"
                 },
                 impact: "Impacto: Diseño de herramienta de evaluación replicable para redes ciclistas",
-                presentation: "Ver presentación"
+                presentation: "Ver publicación en LinkedIn"
             },
             sncf: {
                 title: "Técnico en Electrónica",

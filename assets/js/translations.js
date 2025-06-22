@@ -293,7 +293,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Disponibilité",
-            availability: "Stage 675h+ à partir de juillet 2025",
+            availability: "Stage 675h+ (20-24 semaines) à partir de juillet 2025",
             form: {
                 name: "Nom",
                 email: "Email",
@@ -602,7 +602,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Availability",
-            availability: "675+ hour internship from July 2025",
+            availability: "675+ (20-24 weeks) internship starting July 2025",
             form: {
                 name: "Name",
                 email: "Email",
@@ -911,7 +911,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "Perfil LinkedIn",
             availability_label: "Disponibilidad",
-            availability: "Prácticas 675+ horas desde julio 2025",
+            availability: "Prácticas 675+ (20-24 semanas) desde julio 2025",
             form: {
                 name: "Nombre",
                 email: "Email",

@@ -11,7 +11,7 @@ const translations = {
         },
         hero: {
             title: "Alaa Chakori Semmane",
-            subtitle: "Etudiant Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
+            subtitle: "Étudiant Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
             description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) avec double diplôme en Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, expertise en machine learning, computer vision et optimisation.",
             viewWork: "Mes Projets",
             getInTouch: "Me Contacter"
@@ -320,7 +320,7 @@ const translations = {
         },
         hero: {
             title: "Alaa Chakori Semmane",
-            subtitle: "AI Engineer & Software Developer | AI for Sports",
+            subtitle: "Engineering Student in AI & Developer | AI for Sports",
             description: "5th-year Computer Engineering student (Polytech Tours) with dual degree in Computer Science Master's specialized in AI (UQAC, Canada). Passionate about the intersection between artificial intelligence and sports, expertise in machine learning, computer vision and optimization.",
             viewWork: "View My Work",
             getInTouch: "Get In Touch"
@@ -629,7 +629,7 @@ const translations = {
         },
         hero: {
             title: "Alaa Chakori Semmane",
-            subtitle: "Ingeniero IA & Desarrollador | IA para el Deporte",
+            subtitle: "Estudiante de Ingeniería en IA & Desarrollador | IA para el Deporte",
             description: "Estudiante de 5º año de Ingeniería Informática (Polytech Tours) con doble titulación en Máster en Informática especializado en IA (UQAC, Canadá). Apasionado por la intersección entre inteligencia artificial y deporte, experiencia en machine learning, computer vision y optimización.",
             viewWork: "Ver mi Trabajo",
             getInTouch: "Contactar"

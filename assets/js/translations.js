@@ -12,7 +12,7 @@ const translations = {
         hero: {
             title: "Alaa Chakori Semmane",
             subtitle: "Étudiant Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
-            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) avec double diplôme en Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, expertise en machine learning, computer vision et optimisation.",
+            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) en double diplômation en Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, spécialisation en machine learning, computer vision et optimisation.",
             viewWork: "Mes Projets",
             getInTouch: "Me Contacter"
         },
@@ -26,7 +26,7 @@ const translations = {
             },
             journey: "Mon Parcours",
             description1: "Actuellement en double cursus avec une Maîtrise en Informatique spécialisée IA à l'UQAC (Canada) et une 5ème année d'ingénierie informatique à Polytech Tours (France). Mon expertise se concentre sur le machine learning, la computer vision et l'optimisation.",
-            description2: "Pratiquant passionné de football avec un intérêt marqué pour l'analyse de performances sportives, je développe activement des projets combinant IA et sport, notamment des modèles prédictifs Expected Goals (xG) avec computer vision en temps réel.",
+            description2: "Pratiquant passionné de football avec un intérêt marqué pour l'analyse de performances sportives, je m'intéresse activement à des projets combinant IA et sport, notamment des modèles prédictifs Expected Goals (xG) avec computer vision en temps réel.",
             description3: "Je crois en l'apprentissage continu et l'adaptabilité. Ce que je ne connais pas aujourd'hui, je peux l'apprendre demain. Ma force réside dans ma détermination, intégrité et persévérance à livrer des résultats de qualité."
         },
         education: {
@@ -321,7 +321,7 @@ const translations = {
         hero: {
             title: "Alaa Chakori Semmane",
             subtitle: "Engineering Student in AI & Developer | AI for Sports",
-            description: "5th-year Computer Engineering student (Polytech Tours) with dual degree in Computer Science Master's specialized in AI (UQAC, Canada). Passionate about the intersection between artificial intelligence and sports, expertise in machine learning, computer vision and optimization.",
+            description: "5th-year Computer Engineering student (Polytech Tours) pursuing a dual degree with a Master's in Computer Science specialized in AI (UQAC, Canada). Passionate about the intersection between artificial intelligence and sports, focusing on machine learning, computer vision, and optimization.",
             viewWork: "View My Work",
             getInTouch: "Get In Touch"
         },
@@ -335,7 +335,7 @@ const translations = {
             },
             journey: "My Journey",
             description1: "Currently pursuing a dual degree with a Master's in Computer Science specialized in AI at UQAC (Canada) and 5th year of computer engineering at Polytech Tours (France). My expertise focuses on machine learning, computer vision and optimization.",
-            description2: "Passionate football player with a keen interest in sports performance analysis, I actively develop projects combining AI and sports, particularly predictive Expected Goals (xG) models with real-time computer vision.",
+            description2: "Passionate football player with a keen interest in sports performance analysis, actively engaging in projects combining AI and sports, particularly Expected Goals (xG) predictive models with real-time computer vision.",
             description3: "I believe in continuous learning and adaptability. What I don't know today, I can learn tomorrow. My strength lies in my determination, integrity and perseverance to deliver quality results."
         },
         education: {
@@ -630,7 +630,7 @@ const translations = {
         hero: {
             title: "Alaa Chakori Semmane",
             subtitle: "Estudiante de Ingeniería en IA & Desarrollador | IA para el Deporte",
-            description: "Estudiante de 5º año de Ingeniería Informática (Polytech Tours) con doble titulación en Máster en Informática especializado en IA (UQAC, Canadá). Apasionado por la intersección entre inteligencia artificial y deporte, experiencia en machine learning, computer vision y optimización.",
+            description: "Estudiante de 5º curso de Ingeniería Informática (Polytech Tours) cursando una doble titulación con un Máster en Informática especializado en IA (UQAC, Canadá). Apasionado de la intersección entre la inteligencia artificial y el deporte, centrado en el aprendizaje automático, la visión por ordenador y la optimización.",
             viewWork: "Ver mi Trabajo",
             getInTouch: "Contactar"
         },
@@ -644,7 +644,7 @@ const translations = {
             },
             journey: "Mi Trayectoria",
             description1: "Actualmente cursando una doble titulación con Máster en Informática especializado en IA en UQAC (Canadá) y 5º año de ingeniería informática en Polytech Tours (Francia). Mi experiencia se centra en machine learning, computer vision y optimización.",
-            description2: "Jugador de fútbol apasionado con gran interés en el análisis del rendimiento deportivo, desarrollo activamente proyectos que combinan IA y deporte, particularmente modelos predictivos Expected Goals (xG) con computer vision en tiempo real.",
+            description2: "Jugador de fútbol apasionado con gran interés en el análisis del rendimiento deportivo, participando activamente en proyectos que combinan IA y deporte, especialmente modelos predictivos Expected Goals (xG) con computer vision en tiempo real.",
             description3: "Creo en el aprendizaje continuo y la adaptabilidad. Lo que no sé hoy, puedo aprenderlo mañana. Mi fortaleza radica en mi determinación, integridad y perseverancia para entregar resultados de calidad."
         },
         education: {

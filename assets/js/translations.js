@@ -12,7 +12,7 @@ const translations = {
         hero: {
             title: "Alaa Chakori Semmane",
             subtitle: "Étudiant Ingénieur Intelligence Artificielle & Développeur | L'IA au service du sport",
-            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) en double diplômation en Maîtrise Informatique spécialisée IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, spécialisation en machine learning, computer vision et optimisation.",
+            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) en double cursus avec un Master en Informatique spécialisé en IA (UQAC, Canada). Passionné par l'intersection entre intelligence artificielle et sport, spécialisé en machine learning, computer vision et optimisation.",
             viewWork: "Mes Projets",
             getInTouch: "Me Contacter"
         },

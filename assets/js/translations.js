@@ -25,7 +25,7 @@ const translations = {
                 details: "Stage de 675h minimum (20-24 semaines) - Disponible dès juillet 2025"
             },
             journey: "Mon Parcours",
-            description1: "Actuellement en double cursus : Maîtrise en Informatique spécialisée en Intelligence Artificielle à l'UQAC (Canada) et 5e année d’ingénierie informatique à Polytech Tours (France). Mon expertise porte sur le machine learning, la vision par ordinateur et l’optimisation.",
+            description1: "Actuellement en double cursus : Maîtrise en Informatique spécialisée en Intelligence Artificielle à l'UQAC (Canada) et 5e année d’ingénierie informatique à Polytech Tours (France). Mon parcours m'a permis de développer des compétences solides en machine learning, la vision par ordinateur et l’optimisation.",
             description2: "Pratiquant passionné de football avec un intérêt marqué pour l'analyse de performances sportives, je m'intéresse activement à des projets combinant IA et sport, notamment des modèles prédictifs Expected Goals (xG) avec computer vision en temps réel.",
             description3: "Je crois en l'apprentissage continu et l'adaptabilité. Ce que je ne connais pas aujourd'hui, je peux l'apprendre demain. Ma force réside dans ma détermination, intégrité et persévérance à livrer des résultats de qualité."
         },
@@ -331,10 +331,10 @@ const translations = {
                 title: "Professional Objective",
                 highlight: "Seeking internship in sports performance optimization",
                 description: "Passionate about the intersection between Artificial Intelligence and sports, I want to join a performance optimization team with established IT infrastructure. My goal: contribute as an intern to developing data-driven solutions for performance analysis, results prediction and strategic decision support.",
-                details: "675+ hour internship (20-24 weeks) - Available from July 2025"
+                details: "675+ hour internship (20-24 weeks) - Available from August 2025"
             },
             journey: "My Journey",
-            description1: "Currently pursuing a dual degree: a Master's in Computer Science with a specialization in Artificial Intelligence at UQAC (Canada) and a final-year engineering program in Computer Science at Polytech Tours (France). My expertise lies in machine learning, computer vision, and optimization.",
+            description1: "Currently pursuing a dual degree: a Master's in Computer Science with a specialization in Artificial Intelligence at UQAC (Canada) and a final-year engineering program in Computer Science at Polytech Tours (France). My journey has equipped me with strong skills in machine learning, computer vision, and optimization.",
             description2: "Passionate football player with a keen interest in sports performance analysis, actively engaging in projects combining AI and sports, particularly Expected Goals (xG) predictive models with real-time computer vision.",
             description3: "I believe in continuous learning and adaptability. What I don't know today, I can learn tomorrow. My strength lies in my determination, integrity and perseverance to deliver quality results."
         },
@@ -602,7 +602,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Availability",
-            availability: "675+ (20-24 weeks) internship starting July 2025",
+            availability: "675+ (20-24 weeks) internship starting August 2025",
             form: {
                 name: "Name",
                 email: "Email",
@@ -640,10 +640,10 @@ const translations = {
                 title: "Objetivo Profesional",
                 highlight: "Búsqueda de prácticas en optimización del rendimiento deportivo",
                 description: "Apasionado por la intersección entre Inteligencia Artificial y deporte, quiero unirme a un equipo de optimización del rendimiento con infraestructura IT establecida. Mi objetivo: contribuir como becario al desarrollo de soluciones basadas en datos para análisis de rendimiento, predicción de resultados y apoyo a la decisión estratégica.",
-                details: "Prácticas de 675+ horas (20-24 semanas) - Disponible desde julio 2025"
+                details: "Prácticas de 675+ horas (20-24 semanas) - Disponible desde agosto 2025"
             },
             journey: "Mi Trayectoria",
-            description1: "Actualmente curso una doble titulación: una Maestría en Informática con especialización en Inteligencia Artificial en la UQAC (Canadá) y el último año de ingeniería informática en Polytech Tours (Francia). Mi experiencia se centra en el aprendizaje automático, la visión por computador y la optimización.",
+            description1: "Actualmente curso una doble titulación: una Maestría en Informática con especialización en Inteligencia Artificial en la UQAC (Canadá) y el último año de ingeniería informática en Polytech Tours (Francia). Mi trayectoria me ha permitido desarrollar habilidades sólidas en el aprendizaje automático, la visión por computador y la optimización.",
             description2: "Jugador de fútbol apasionado con gran interés en el análisis del rendimiento deportivo, participando activamente en proyectos que combinan IA y deporte, especialmente modelos predictivos Expected Goals (xG) con computer vision en tiempo real.",
             description3: "Creo en el aprendizaje continuo y la adaptabilidad. Lo que no sé hoy, puedo aprenderlo mañana. Mi fortaleza radica en mi determinación, integridad y perseverancia para entregar resultados de calidad."
         },
@@ -911,7 +911,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "Perfil LinkedIn",
             availability_label: "Disponibilidad",
-            availability: "Prácticas 675+ (20-24 semanas) desde julio 2025",
+            availability: "Prácticas 675+ (20-24 semanas) desde agosto 2025",
             form: {
                 name: "Nombre",
                 email: "Email",

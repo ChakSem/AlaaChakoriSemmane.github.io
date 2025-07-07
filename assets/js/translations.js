@@ -22,7 +22,7 @@ const translations = {
                 title: "Objectif Professionnel",
                 highlight: "Recherche de stage en optimisation de la performance sportive",
                 description: "Passionné par l'intersection entre Intelligence Artificielle et sport, je souhaite rejoindre une équipe d'optimisation de la performance disposant d'une infrastructure IT établie. Mon objectif : contribuer en tant que stagiaire au développement de solutions data-driven pour l'analyse performance, la prédiction de résultats et l'aide à la décision stratégique.",
-                details: "Stage de 675h minimum (20-24 semaines) - Disponible dès juillet 2025"
+                details: "Stage de 675h minimum (20-24 semaines) - Disponible dès août 2025"
             },
             journey: "Mon Parcours",
             description1: "Actuellement en double cursus : Maîtrise en Informatique spécialisée en Intelligence Artificielle à l'UQAC (Canada) et 5e année d’ingénierie informatique à Polytech Tours (France). Mon parcours m'a permis de développer des compétences solides en machine learning, la vision par ordinateur et l’optimisation.",
@@ -293,7 +293,7 @@ const translations = {
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Disponibilité",
-            availability: "Stage 675h+ (20-24 semaines) à partir de juillet 2025",
+            availability: "Stage 675h+ (20-24 semaines) à partir de août 2025",
             form: {
                 name: "Nom",
                 email: "Email",

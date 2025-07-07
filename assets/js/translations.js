@@ -244,7 +244,13 @@ const translations = {
                 name: "Arabe",
                 level: "A1",
                 note: "Notions - C.O"
+            },
+            moroccan_arabic: {
+                name: "Arabe Marocain",
+                level: "A2",
+                note: "Conversationnel"
             }
+
         },
         interests: {
             title: "Centres d'Intérêt",
@@ -553,6 +559,11 @@ const translations = {
                 name: "Arabic",
                 level: "A1",
                 note: "Notions - L.C"
+            },
+            moroccan_arabic: {
+                name: "Moroccan Arabic",
+                level: "A2",
+                note: "Conversational"
             }
         },
         interests: {
@@ -862,7 +873,13 @@ const translations = {
                 name: "Árabe",
                 level: "A1",
                 note: "Nociones - C.O"
-            }
+            },
+            moroccan_arabic: {
+                name: "Árabe Marroquí",
+                level: "A2",
+                note: "Conversacional"
+            },
+
         },
         interests: {
             title: "Intereses",

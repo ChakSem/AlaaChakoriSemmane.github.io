@@ -260,7 +260,7 @@ const translations = {
             },
             tech: {
                 name: "Tech & Innovation",
-                description: "Bénévole Touraine Tech (2023-2024), Conférences en recherche opérationnelle"
+                description: "Bénévole Touraine Tech (2023 et 2024), Conférences en recherche opérationnelle"
             },
             environment: {
                 name: "Engagement Social",

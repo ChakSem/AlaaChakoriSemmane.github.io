@@ -50,16 +50,16 @@ const translations = {
                 title: "Stage - Recherche en Mobilité Urbaine & Analytics",
                 company: "Laboratoire d'Informatique Fondamentale et Appliquée (LIFAT), Tours",
                 period: "Juin - Août 2024",
-                mission: "Mission : Conception d'indicateurs d'accessibilité et d'équité pour les réseaux cyclables de Tours dans le cadre d'une preuve de concept recherche.",
+                mission: "Mission : Développer des indicateurs d'accessibilité et d'équité pour évaluer les réseaux cyclables de Tours dans le cadre d'un projet de recherche.",
                 achievements: {
-                    title: "Réalisations techniques :",
-                    1: "Adaptation de la méthode d'évaluation de Kent & Karner (2018) au contexte français",
-                    2: "Développement d'algorithmes d'analyse spatiale et de métriques de performance avancées",
-                    3: "Traitement et structuration de datasets complexes (OpenStreetMap, INSEE Filosofi)",
-                    4: "Création d'outils de visualisation cartographique et d'aide à la décision",
-                    5: "Implémentation de systèmes de transformation de coordonnées géographiques (CRS)"
+                    title: "Principales réalisations :",
+                    1: "J'ai adapté une méthode d'évaluation internationale (Kent & Karner, 2018) au contexte français",
+                    2: "J'ai conçu des algorithmes d'analyse spatiale pour mesurer les performances des infrastructures cyclables",
+                    3: "J'ai traité des données géographiques complexes provenant d'OpenStreetMap et de l'INSEE",
+                    4: "J'ai développé des outils de visualisation cartographique pour faciliter la prise de décision",
+                    5: "J'ai mis en place des systèmes de transformation de coordonnées géographiques"
                 },
-                impact: "Impact : Conception d'un outil d'évaluation réplicable des réseaux cyclables",
+                impact: "Résultat : Création d'un outil d'évaluation transposable à d'autres villes françaises",
                 presentation: "Voir le post Linkedin"
             },
             sncf: {
@@ -365,17 +365,17 @@ const translations = {
                 title: "Internship - Urban Mobility & Analytics Research",
                 company: "Laboratory of Fundamental and Applied Computer Science (LIFAT), Tours",
                 period: "June - August 2024",
-                mission: "Mission: Design of accessibility and equity indicators for Tours cycling networks as part of a research proof of concept.",
+                mission: "Mission: Develop accessibility and equity indicators to evaluate cycling networks in Tours as part of a research project.",
                 achievements: {
-                    title: "Technical achievements:",
-                    1: "Adaptation of Kent & Karner (2018) evaluation method to French context",
-                    2: "Development of spatial analysis algorithms and advanced performance metrics",
-                    3: "Processing and structuring of complex datasets (OpenStreetMap, INSEE Filosofi)",
-                    4: "Creation of cartographic visualization and decision support tools",
-                    5: "Implementation of geographic coordinate transformation systems (CRS)"
+                    title: "Key achievements:",
+                    1: "I adapted an international evaluation method (Kent & Karner, 2018) to the French context",
+                    2: "I designed spatial analysis algorithms to measure cycling infrastructure performance",
+                    3: "I processed complex geographic data from OpenStreetMap and INSEE sources",
+                    4: "I developed cartographic visualization tools to support decision-making",
+                    5: "I implemented geographic coordinate transformation systems"
                 },
-                impact: "Impact: Design of a replicable evaluation tool for cycling networks",
-                presentation: "View LinkedIn post"
+                impact: "Outcome: Created an evaluation tool that can be applied to other French cities",
+                presentation: "See LinkedIn post"
             },
             sncf: {
                 title: "Electronics Technician",
@@ -679,17 +679,17 @@ const translations = {
                 title: "Prácticas - Investigación en Movilidad Urbana & Analytics",
                 company: "Laboratorio de Informática Fundamental y Aplicada (LIFAT), Tours",
                 period: "Junio - Agosto 2024",
-                mission: "Misión: Diseño de indicadores de accesibilidad y equidad para redes ciclistas de Tours como parte de una prueba de concepto de investigación.",
+                mission: "Misión: Desarrollar indicadores de accesibilidad y equidad para evaluar las redes ciclistas de Tours en el marco de un proyecto de investigación.",
                 achievements: {
-                    title: "Logros técnicos:",
-                    1: "Adaptación del método de evaluación de Kent & Karner (2018) al contexto francés",
-                    2: "Desarrollo de algoritmos de análisis espacial y métricas de rendimiento avanzadas",
-                    3: "Procesamiento y estructuración de datasets complejos (OpenStreetMap, INSEE Filosofi)",
-                    4: "Creación de herramientas de visualización cartográfica y apoyo a la decisión",
-                    5: "Implementación de sistemas de transformación de coordenadas geográficas (CRS)"
+                    title: "Principales logros:",
+                    1: "He adaptado un método de evaluación internacional (Kent & Karner, 2018) al contexto francés",
+                    2: "He diseñado algoritmos de análisis espacial para medir el rendimiento de las infraestructuras ciclistas",
+                    3: "He procesado datos geográficos complejos procedentes de OpenStreetMap e INSEE",
+                    4: "He desarrollado herramientas de visualización cartográfica para facilitar la toma de decisiones",
+                    5: "He implementado sistemas de transformación de coordenadas geográficas"
                 },
-                impact: "Impacto: Diseño de herramienta de evaluación replicable para redes ciclistas",
-                presentation: "Ver publicación en LinkedIn"
+                impact: "Resultado: Creación de una herramienta de evaluación adaptable a otras ciudades francesas",
+                presentation: "Ver el post de Linkedin"
             },
             sncf: {
                 title: "Técnico en Electrónica",

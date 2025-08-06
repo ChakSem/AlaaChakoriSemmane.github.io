@@ -372,76 +372,257 @@ section {
     margin-bottom: 3rem;
     position: relative;
 }
-
-/* About section professionnelle */
+/* About section professionnelle - VERSION CORRIGÉE */
 .about {
     background: var(--background);
 }
 
+/* === OBJECTIVE CARD === */
 .objective-card {
-    background: var(--surface);
+    background: linear-gradient(135deg, var(--surface) 0%, var(--surface-alt) 100%);
     border: 1px solid var(--border);
-    border-radius: var(--radius-lg);
-    padding: 2rem;
+    border-radius: var(--radius-xl);
+    padding: 2.5rem;
     margin-bottom: 3rem;
     text-align: center;
+    position: relative;
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+}
+
+.objective-card::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, var(--accent-subtle) 0%, transparent 60%);
+    z-index: 1;
+}
+
+.objective-card > * {
+    position: relative;
+    z-index: 2;
 }
 
 .objective-card h3 {
     color: var(--text-primary);
     margin-bottom: 1rem;
+    font-size: 1.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+}
+
+.objective-card h3 i {
+    color: var(--accent);
     font-size: 1.25rem;
 }
 
 .objective-highlight {
-    font-size: 1.125rem;
-    font-weight: 600;
+    font-size: 1.25rem;
+    font-weight: 700;
     color: var(--accent);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.objective-card p {
+    color: var(--text-secondary);
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
 }
 
 .objective-details {
     background: var(--accent);
     color: white;
-    padding: 0.625rem 1.25rem;
-    border-radius: var(--radius);
-    font-weight: 500;
+    padding: 0.875rem 1.5rem;
+    border-radius: var(--radius-lg);
+    font-weight: 600;
     font-size: 0.875rem;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
     margin-top: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 102, 255, 0.3);
 }
 
+/* === ABOUT CONTENT - UNE SEULE COLONNE CENTRÉE === */
 .about-content {
-    display: grid;
-    grid-template-columns: 350px 1fr;
-    gap: 3rem;
-    align-items: start;
+    display: block;
+    max-width: 900px;
+    margin: 0 auto;
 }
 
-.about-image {
+.about-text-container {
     display: flex;
+    flex-direction: column;
+}
+
+.about-text {
+    width: 100%;
+}
+
+/* === JOURNEY HEADER CENTRÉ === */
+.journey-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.journey-header h3 {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    white-space: nowrap;
+    font-weight: 600;
+}
+
+.journey-header h3 i {
+    color: var(--accent);
+    font-size: 1.25rem;
+}
+
+.journey-line {
+    flex: 1;
+    height: 2px;
+    background: linear-gradient(90deg, transparent 20%, var(--accent) 50%, transparent 80%);
+    border-radius: 1px;
+    max-width: 120px;
+}
+
+/* === DESCRIPTION CARDS === */
+.description-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+    transition: var(--transition-slow);
+    position: relative;
+    box-shadow: var(--shadow-xs);
+    width: 100%;
+}
+
+.description-card:hover {
+    box-shadow: var(--shadow);
+    transform: translateY(-2px);
+}
+
+.description-card.featured {
+    background: var(--accent-subtle);
+    border-color: var(--accent);
+}
+
+.description-card.featured::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: var(--accent);
+    border-radius: var(--radius) 0 0 var(--radius);
+}
+
+/* === CARD ICONS === */
+.card-icon {
+    flex-shrink: 0;
+    width: 50px;
+    height: 50px;
+    background: var(--accent-subtle);
+    border-radius: var(--radius-lg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.125rem;
+    border: 1px solid rgba(0, 102, 255, 0.1);
+}
+
+.card-icon i {
+    color: var(--accent);
+    font-size: 1.375rem;
+}
+
+/* === CARD CONTENT === */
+.card-content {
+    flex: 1;
+}
+
+.card-content p {
+    margin: 0;
+    line-height: 1.8;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    text-align: left;
+}
+
+/* === KEY SKILLS HIGHLIGHT === */
+.key-skills-highlight {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius-lg);
+    padding: 2rem;
+    margin-top: 2rem;
+    box-shadow: var(--shadow-xs);
+    text-align: center;
+}
+
+.key-skills-highlight h4 {
+    font-size: 1.125rem;
+    color: var(--text-primary);
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+}
+
+.key-skills-highlight h4 i {
+    color: var(--warning);
+    font-size: 1rem;
+}
+
+.skills-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
     justify-content: center;
 }
 
-.profile-image-container {
-    width: 215px;
-    height: 315px;
-    margin: 0 auto;
-    border-radius: 1.5rem;
-    overflow: hidden;
-    border: 2px solid rgba(0, 102, 255, 0.1);
-    background: var(--surface);
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+.skill-highlight-tag {
+    background: var(--accent);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius);
+    font-size: 0.85rem;
+    font-weight: 500;
+    box-shadow: 0 2px 4px rgba(0, 102, 255, 0.2);
+    transition: var(--transition);
+    cursor: default;
 }
 
-.rounded-profile-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center center;
-    display: block;
+.skill-highlight-tag:hover {
+    background: var(--accent-hover);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 102, 255, 0.3);
 }
 
+.highlight {
+    font-weight: 600;
+    color: var(--text-primary);
+}
 
 
 

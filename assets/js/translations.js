@@ -80,6 +80,14 @@ const translations = {
                 description: "Développement d'un modèle ML avancé intégrant computer vision en temps réel pour le calcul des xG. Le système analyse automatiquement le positionnement des joueurs, la géométrie du terrain et les actions de jeu pour prédire les scores avec une précision supérieure aux modèles traditionnels.",
                 impact: "Impact : Précision de prédiction améliorée de 15% vs modèles standards"
             },
+            sketchRecognition: {
+                title: "Reconnaissance de Dessins IA - Vision Artificielle",
+                period: "Décembre 2024 • Projet Académique UQAC",
+                badge: "Vision par Ordinateur",
+                description: "Développement d'un système complet de reconnaissance de croquis intégrant ML/DL avec interface JavaFX-Python. Pipeline incluant prétraitement d'images, CNN personnalisé, ResNet-18, GAN génératif et comparaison avec API Gemini. Données augmentées sur 250 classes du dataset TU-Berlin.",
+                impact: "Impact : Interface multi-modèles, 81% précision Gemini vs  ResNet sur 250 classes",
+                link: "Voir présentation"
+            },
             hackathon: {
                 title: "Intelligence Énergétique - RAG System",
                 period: "Janvier 2025 • Hackathon Inter-Universitaire 48h",
@@ -395,6 +403,14 @@ const translations = {
                 description: "Development of an advanced ML model integrating real-time computer vision for xG calculation. The system automatically analyzes player positioning, field geometry and game actions to predict scores with superior accuracy compared to traditional models.",
                 impact: "Impact: 15% improved prediction accuracy vs standard models"
             },
+            sketchRecognition: {
+                title: "AI Sketch Recognition - Computer Vision",
+                period: "December 2024 • UQAC Academic Project",
+                badge: "Computer Vision",
+                description: "Development of a complete sketch recognition system integrating ML/DL with JavaFX-Python interface. Pipeline including image preprocessing, custom CNN, ResNet-18, generative GAN and comparison with Gemini API. Data augmentation on 250 classes from TU-Berlin dataset.",
+                impact: "Impact: Multi-model interface, 81% Gemini accuracy vs 62% ResNet on 250 classes",
+                link: "View presentation"
+            },
             hackathon: {
                 title: "Energy Intelligence - RAG System",
                 period: "January 2025 • Inter-University Hackathon 48h",
@@ -708,6 +724,14 @@ const translations = {
                 badge: "Proyecto Destacado",
                 description: "Desarrollo de un modelo ML avanzado integrando computer vision en tiempo real para cálculo de xG. El sistema analiza automáticamente el posicionamiento de jugadores, geometría del campo y acciones de juego para predecir puntuaciones con precisión superior a modelos tradicionales.",
                 impact: "Impacto: 15% de mejora en precisión de predicción vs modelos estándar"
+            },
+            sketchRecognition: {
+                title: "Reconocimiento de Bocetos IA - Visión Artificial",
+                period: "Diciembre 2024 • Proyecto Académico UQAC",
+                badge: "Visión por Computadora",
+                description: "Desarrollo de un sistema completo de reconocimiento de bocetos integrando ML/DL con interfaz JavaFX-Python. Pipeline incluyendo preprocesamiento de imágenes, CNN personalizado, ResNet-18, GAN generativo y comparación con API Gemini. Aumento de datos en 250 clases del dataset TU-Berlin.",
+                impact: "Impacto: Interfaz multi-modelo, 81% precisión Gemini vs 62% ResNet en 250 clases",
+                link: "Ver presentación"
             },
             hackathon: {
                 title: "Inteligencia Energética - Sistema RAG",

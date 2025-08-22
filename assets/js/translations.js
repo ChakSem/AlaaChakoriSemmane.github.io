@@ -336,7 +336,7 @@ const translations = {
             objective: {
                 title: "Professional Objective",
                 highlight: "Seeking internship in Artificial Intelligence",
-                description: "Passionate about Artificial Intelligence and optimization, I want to join a team with established technical infrastructure to deepen my skills in applied AI. My goal: contribute as an intern to developing data-driven solutions: predictive analysis, computer vision, and decision support tools.",
+                description: "Passionate about Artificial Intelligence and optimization, i am looking to apply my skills in predictive analysis, computer vision and decision support tools, while continuing to develop them through concrete projects.",
                 details: "675+ hour internship (20-24 weeks) - Available from September 2025"
             },
             journey: "My Journey",
@@ -650,7 +650,7 @@ const translations = {
             objective: {
                 title: "Objetivo Profesional",
                 highlight: "Búsqueda de prácticas en Inteligencia Artificial",
-                description: "Apasionado por la Inteligencia Artificial y la optimización, quiero unirme a un equipo con infraestructura técnica establecida para profundizar mis competencias en IA aplicada. Mi objetivo: contribuir como becario al desarrollo de soluciones basadas en datos: análisis predictivo, computer vision y herramientas de apoyo a la decisión.",
+                description: "Apasionado por la Inteligencia Artificial y la optimización, busco aplicar mis habilidades en análisis predictivo, visión por computadora y herramientas de apoyo a la decisión, mientras continúo desarrollándolas a través de proyectos concretos.",
                 details: "Prácticas de 675+ horas (20-24 semanas) - Disponible desde septiembre 2025"
             },
             journey: "Mi Trayectoria",

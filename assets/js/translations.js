@@ -52,16 +52,17 @@ const translations = {
                 period: "Juin - Août 2024",
                 mission: "Mission : Développer des indicateurs d'accessibilité et d'équité pour évaluer les réseaux cyclables de Tours dans le cadre d'un projet de recherche.",
                 achievements: {
-                    title: "Principales réalisations :",
-                    1: "J'ai adapté une méthode d'évaluation internationale (Kent & Karner, 2018) au contexte français",
-                    2: "J'ai conçu des algorithmes d'analyse spatiale pour mesurer les performances des infrastructures cyclables",
-                    3: "J'ai traité des données géographiques complexes provenant d'OpenStreetMap et de l'INSEE",
-                    4: "J'ai développé des outils de visualisation cartographique pour faciliter la prise de décision",
-                    5: "J'ai mis en place des systèmes de transformation de coordonnées géographiques"
+                     title: "Réalisations techniques :",
+                    1: "Adaptation de la méthode d'évaluation de Kent & Karner (2018) au contexte français",
+                    2: "Développement d'algorithmes d'analyse spatiale et de métriques de performance avancées",
+                    3: "Traitement et structuration de datasets complexes (OpenStreetMap, INSEE Filosofi)",
+                    4: "Création d'outils de visualisation cartographique et d'aide à la décision",
+                    5: "Implémentation de systèmes de transformation de coordonnées géographiques (CRS)"
                 },
                 impact: "Résultat : Création d'un outil d'évaluation transposable à d'autres villes françaises",
                 presentation: "Voir le post Linkedin"
             },
+            
             sncf: {
                 title: "Technicien en Électronique",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
@@ -374,13 +375,14 @@ const translations = {
                 company: "Laboratory of Fundamental and Applied Computer Science (LIFAT), Tours",
                 period: "June - August 2024",
                 mission: "Mission: Develop accessibility and equity indicators to evaluate cycling networks in Tours as part of a research project.",
+
                 achievements: {
-                    title: "Key achievements:",
-                    1: "I adapted an international evaluation method (Kent & Karner, 2018) to the French context",
-                    2: "I designed spatial analysis algorithms to measure cycling infrastructure performance",
-                    3: "I processed complex geographic data from OpenStreetMap and INSEE sources",
-                    4: "I developed cartographic visualization tools to support decision-making",
-                    5: "I implemented geographic coordinate transformation systems"
+                    title: "Technical Achievements:",
+                    1: "Adapted Kent & Karner's (2018) evaluation method to the French context",
+                    2: "Developed spatial analysis algorithms and advanced performance metrics",
+                    3: "Processed and structured complex datasets (OpenStreetMap, INSEE Filosofi)",
+                    4: "Created mapping visualization and decision support tools",
+                    5: "Implemented geographic coordinate transformation systems (CRS)"
                 },
                 impact: "Outcome: Created an evaluation tool that can be applied to other French cities",
                 presentation: "See LinkedIn post"
@@ -697,12 +699,12 @@ const translations = {
                 period: "Junio - Agosto 2024",
                 mission: "Misión: Desarrollar indicadores de accesibilidad y equidad para evaluar las redes ciclistas de Tours en el marco de un proyecto de investigación.",
                 achievements: {
-                    title: "Principales logros:",
-                    1: "He adaptado un método de evaluación internacional (Kent & Karner, 2018) al contexto francés",
-                    2: "He diseñado algoritmos de análisis espacial para medir el rendimiento de las infraestructuras ciclistas",
-                    3: "He procesado datos geográficos complejos procedentes de OpenStreetMap e INSEE",
-                    4: "He desarrollado herramientas de visualización cartográfica para facilitar la toma de decisiones",
-                    5: "He implementado sistemas de transformación de coordenadas geográficas"
+                    title: "Logros Técnicos:",
+                    1: "Adaptación del método de evaluación de Kent & Karner (2018) al contexto francés",
+                    2: "Desarrollo de algoritmos de análisis espacial y métricas de rendimiento avanzadas",
+                    3: "Procesamiento y estructuración de conjuntos de datos complejos (OpenStreetMap, INSEE Filosofi)",
+                    4: "Creación de herramientas de visualización cartográfica y apoyo a la decisión",
+                    5: "Implementación de sistemas de transformación de coordenadas geográficas (CRS)"
                 },
                 impact: "Resultado: Creación de una herramienta de evaluación adaptable a otras ciudades francesas",
                 presentation: "Ver el post de Linkedin"

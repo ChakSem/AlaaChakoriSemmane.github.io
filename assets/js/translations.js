@@ -21,7 +21,7 @@ const translations = {
             objective: {
                 title: "Objectif Professionnel",
                 highlight: "Recherche de stage en Intelligence Artificielle",
-                description: "Passionné par l'Intelligence Artificielle et l'optimisation, je souhaite rejoindre une équipe disposant d'une infrastructure technique établie pour approfondir mes compétences en IA appliquée. Mon objectif : contribuer en tant que stagiaire au développement de solutions basées sur les données : analyse prédictive, computer vision, et outils d'aide à la décision.",
+                description: "Passionné par l’Intelligence Artificielle et l’optimisation, je cherche à mettre en application mes compétences en analyse prédictive, vision par ordinateur et outils d’aide à la décision, tout en continuant à les développer à travers des projets concrets.",
                 details: "Stage de 675h minimum (20-24 semaines) - Disponible dès septembre 2025"
             },
             journey: "Mon Parcours",

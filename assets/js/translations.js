@@ -12,7 +12,7 @@ const translations = {
         hero: {
             title: "Alaâ Chakori Semmane",
             subtitle: "Étudiant Ingénieur Intelligence Artificielle & Développeur",
-            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) en double cursus avec un Master en Informatique spécialisé en IA (UQAC, Canada).",
+            description: "Étudiant en 5ème année d'ingénierie informatique (Polytech Tours) en double cursus pour un Master en Informatique spécialisé en IA (UQAC, Canada).",
             viewWork: "Mes Projets",
             getInTouch: "Me Contacter"
         },
@@ -41,7 +41,7 @@ const translations = {
                 title: "Cycle Ingénieur en Informatique",
                 institution: "Polytech Tours, Tours, France",
                 specialization: "Orientation 4ème année : Intelligence Artificielle et optimisation avancée",
-                period: "Sept. 2022 - 2025"
+                period: "Sept. 2022 - Présent"
             }
         },
         experience: {
@@ -336,7 +336,7 @@ const translations = {
         hero: {
             title: "Alaâ Chakori Semmane",
             subtitle: "Engineering Student in AI & Developer ",
-            description: "5th-year Computer Engineering student (Polytech Tours) pursuing a dual degree with a Master's in Computer Science specialized in AI (UQAC, Canada).",
+            description: "5th-year Computer Engineering student (Polytech Tours) pursuing a dual degree for a Master's in Computer Science specialized in AI (UQAC, Canada).",
             viewWork: "View My Work",
             getInTouch: "Get In Touch"
         },
@@ -365,7 +365,7 @@ const translations = {
                 title: "Computer Engineering Cycle",
                 institution: "Polytech Tours, Tours, France",
                 specialization: "4th year orientation: Artificial Intelligence and advanced optimization",
-                period: "Sept. 2022 - 2025"
+                period: "Sept. 2022 - Present"
             }
         },
         experience: {
@@ -659,7 +659,7 @@ const translations = {
         hero: {
             title: "Alaâ Chakori Semmane",
             subtitle: "Estudiante de Ingeniería en IA & Desarrollador ",
-            description: "Estudiante de 5º curso de Ingeniería Informática (Polytech Tours) cursando una doble titulación con un Máster en Informática especializado en IA (UQAC, Canadá).",
+            description: "Estudiante de 5º curso de Ingeniería Informática (Polytech Tours) cursando una doble titulación para un Máster en Informática especializado en IA (UQAC, Canadá).",
             viewWork: "Ver mi Trabajo",
             getInTouch: "Contactar"
         },
@@ -688,7 +688,7 @@ const translations = {
                 title: "Ciclo de Ingeniería Informática",
                 institution: "Polytech Tours, Tours, Francia",
                 specialization: "Orientación 4º año: Inteligencia Artificial y optimización avanzada",
-                period: "Sept. 2022 - 2025"
+                period: "Sept. 2022 - Presente"
             }
         },
         experience: {

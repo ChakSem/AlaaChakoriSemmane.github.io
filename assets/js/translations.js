@@ -66,7 +66,7 @@ const translations = {
             sncf: {
                 title: "Technicien en Électronique",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
-                period: "Avril - Août 2022",
+                period: "Avril - Juin 2022",
                 description: "Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. Diagnostic électronique et réparation de systèmes embarqués.",
                 impact: "Impact : Renforcement de la disponibilité opérationnelle des platines grâce à 43 interventions réussies (dont 15 réparations), contribuant à fluidifier le cycle de maintenance et à limiter les retards d'exploitation.",
                 presentation: "Voir lettre de recommandation"
@@ -390,7 +390,7 @@ const translations = {
             sncf: {
                 title: "Electronics Technician",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
-                period: "April - August 2022",
+                period: "April - June 2022",
                 description: "Preventive and corrective maintenance of TER2N ng door control panels. Electronic diagnosis and repair of embedded systems.",
                 impact: "Impact: Strengthened operational availability of control boards through 43 successful interventions (including 15 repairs), contributing to smoother maintenance cycles and reduced operational delays.",
                 presentation: "View recommendation letter"
@@ -712,7 +712,7 @@ const translations = {
             sncf: {
                 title: "Técnico en Electrónica",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
-                period: "Abril - Agosto 2022",
+                period: "Abril - Junio 2022",
                 description: "Mantenimiento preventivo y correctivo de paneles de control de puertas TER2N ng. Diagnóstico electrónico y reparación de sistemas embebidos.",
                 impact: "Impacto: Fortalecimiento de la disponibilidad operativa de los paneles de control a través de 43 intervenciones exitosas (incluidas 15 reparaciones), contribuyendo a ciclos de mantenimiento más fluidos y reducción de retrasos operativos.",
                 presentation: "Ver carta de recomendación"

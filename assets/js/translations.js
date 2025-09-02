@@ -64,7 +64,7 @@ const translations = {
             },
             
             sncf: {
-                title: "Technicien en Électronique",
+                title: "Stagiaire - Technicien en Électronique",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Avril - Juin 2022",
                 description: "Maintenance préventive et corrective des panneaux de contrôle des portes du TER2N ng. Diagnostic électronique et réparation de systèmes embarqués.",
@@ -388,7 +388,7 @@ const translations = {
                 presentation: "See LinkedIn post"
             },
             sncf: {
-                title: "Electronics Technician",
+                title: "Intern - Electronics Technician",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "April - June 2022",
                 description: "Preventive and corrective maintenance of TER2N ng door control panels. Electronic diagnosis and repair of embedded systems.",
@@ -710,7 +710,7 @@ const translations = {
                 presentation: "Ver el post de Linkedin"
             },
             sncf: {
-                title: "Técnico en Electrónica",
+                title: "Prácticas - Técnico en Electrónica",
                 company: "SNCF Voyageurs - Technicentre de Saint-Pierre-des-Corps",
                 period: "Abril - Junio 2022",
                 description: "Mantenimiento preventivo y correctivo de paneles de control de puertas TER2N ng. Diagnóstico electrónico y reparación de sistemas embebidos.",

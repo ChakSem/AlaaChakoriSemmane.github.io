@@ -42,6 +42,12 @@ const translations = {
                 institution: "Polytech Tours, Tours, France",
                 specialization: "Orientation 4ème année : Intelligence Artificielle et optimisation avancée",
                 period: "Sept. 2022 - Présent"
+            },
+            dut: {
+                title: "DUT Génie Électrique et Informatique Industrielle",
+                institution: "IUT de Tours, France",
+                specialization: "Électronique, Automatisme, Informatique Industrielle",
+                period: "Sept. 2020 - Juin 2022"
             }
         },
         experience: {
@@ -366,6 +372,13 @@ const translations = {
                 institution: "Polytech Tours, Tours, France",
                 specialization: "4th year orientation: Artificial Intelligence and advanced optimization",
                 period: "Sept. 2022 - Present"
+            },
+
+            dut: {
+                title: "University Diploma of Technology (DUT) in Electrical Engineering and Industrial Computing",
+                institution: "IUT of Tours, France",
+                specialization: "Electronics, Automation, Industrial Computing",
+                period: "Sept. 2020 - Jun. 2022"
             }
         },
         experience: {
@@ -689,6 +702,12 @@ const translations = {
                 institution: "Polytech Tours, Tours, Francia",
                 specialization: "Orientación 4º año: Inteligencia Artificial y optimización avanzada",
                 period: "Sept. 2022 - Presente"
+            },
+                dut: {
+                title: "Diploma Universitario de Tecnología (DUT) en Ingeniería Eléctrica e Informática Industrial",
+                institution: "IUT de Tours, Francia",
+                specialization: "Electrónica, Automatización, Informática Industrial",
+                period: "Sept. 2020 - Jun. 2022"
             }
         },
         experience: {

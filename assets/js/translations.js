@@ -22,7 +22,7 @@ const translations = {
                 title: "Objectif Professionnel",
                 highlight: "Recherche de stage en Intelligence Artificielle",
                 description: "Passionné par l’Intelligence Artificielle et l’optimisation, je cherche à mettre en application mes compétences en analyse prédictive, vision par ordinateur et outils d’aide à la décision, tout en continuant à les développer à travers des projets concrets.",
-                details: "Stage de 675h minimum (20-24 semaines) - Disponible dès septembre 2025"
+                details: "Stage de 675h minimum (20-24 semaines) - Disponible dès octobre 2025"
             },
             journey: "Mon Parcours",
             description1: "Actuellement en double cursus : Maîtrise en Informatique spécialisée en Intelligence Artificielle à l'UQAC (Canada) et 5e année d'ingénierie informatique à Polytech Tours (France). Mon parcours m'a permis de développer des compétences solides en machine learning, computer vision et optimisation.",
@@ -310,11 +310,11 @@ const translations = {
             phone_label: "Téléphone",
             phone: "+33 6 25 79 48 48",
             location_label: "Localisation",
-            location: "Tours, France ",
+            location: "Tours, Paris - France",
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Disponibilité",
-            availability: "Stage 675h+ (20-24 semaines) à partir de septembre 2025",
+            availability: "Stage 675h+ (20-24 semaines) à partir de octobre 2025",
             form: {
                 name: "Nom",
                 email: "Email",
@@ -352,7 +352,7 @@ const translations = {
                 title: "Professional Objective",
                 highlight: "Seeking internship in Artificial Intelligence",
                 description: "Passionate about Artificial Intelligence and optimization, i am looking to apply my skills in predictive analysis, computer vision and decision support tools, while continuing to develop them through concrete projects.",
-                details: "675+ hour internship (20-24 weeks) - Available from September 2025"
+                details: "675+ hour internship (20-24 weeks) - Available from October 2025"
             },
             journey: "My Journey",
             description1: "Currently pursuing a dual degree: a Master's in Computer Science with specialization in Artificial Intelligence at UQAC (Canada) and final-year engineering program in Computer Science at Polytech Tours (France). My journey has equipped me with strong skills in machine learning, computer vision, and optimization.",
@@ -640,11 +640,11 @@ const translations = {
             phone_label: "Phone",
             phone: "+33 6 25 79 48 48",
             location_label: "Location",
-            location: "Tours, France ",
+            location: "Tours, Paris - France",
             linkedin_label: "LinkedIn",
             linkedin: "LinkedIn Profile",
             availability_label: "Availability",
-            availability: "675+ (20-24 weeks) internship starting September 2025",
+            availability: "675+ (20-24 weeks) internship starting October 2025",
             form: {
                 name: "Name",
                 email: "Email",
@@ -682,7 +682,7 @@ const translations = {
                 title: "Objetivo Profesional",
                 highlight: "Búsqueda de prácticas en Inteligencia Artificial",
                 description: "Apasionado por la Inteligencia Artificial y la optimización, busco aplicar mis habilidades en análisis predictivo, visión por computadora y herramientas de apoyo a la decisión, mientras continúo desarrollándolas a través de proyectos concretos.",
-                details: "Prácticas de 675+ horas (20-24 semanas) - Disponible desde septiembre 2025"
+                details: "Prácticas de 675+ horas (20-24 semanas) - Disponible desde octubre 2025"
             },
             journey: "Mi Trayectoria",
             description1: "Actualmente curso una doble titulación: una Maestría en Informática con especialización en Inteligencia Artificial en la UQAC (Canadá) y el último año de ingeniería informática en Polytech Tours (Francia). Mi trayectoria me ha permitido desarrollar habilidades sólidas en machine learning, computer vision y optimización.",
@@ -969,11 +969,11 @@ const translations = {
             phone_label: "Teléfono",
             phone: "+33 6 25 79 48 48",
             location_label: "Ubicación",
-            location: "Tours, Francia",
+            location: "Tours, París - Francia",
             linkedin_label: "LinkedIn",
             linkedin: "Perfil LinkedIn",
             availability_label: "Disponibilidad",
-            availability: "Prácticas 675+ (20-24 semanas) desde septiembre 2025",
+            availability: "Prácticas 675+ (20-24 semanas) desde octubre 2025",
             form: {
                 name: "Nombre",
                 email: "Email",
